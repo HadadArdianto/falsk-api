@@ -1,4 +1,4 @@
 #!/bin/bash
 
-url="https://api-xbag27sv3a-et.a.run.app//"
+url="  Isi dengan url api //"
 curl -X POST -F "file=@1.jpg" $url"/predict"
