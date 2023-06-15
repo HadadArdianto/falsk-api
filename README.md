@@ -25,7 +25,7 @@ curl -X POST -F "file="@sesuaikan dengan file yang tersedia di lokal" "link.api.
 ```
  // POST gambar untuk prediksi item
  ```
- 1. masukkan setiap gambar tanaman yang ingin di predik ke folder test/ tersebut
+ 1. Masukkan setiap gambar tanaman yang ingin di predik ke folder test/ tersebut
  2. Ubah link curl dibawah sesuai kebutuhan
  // Contoh:
  url="link.api.com//"
