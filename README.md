@@ -1,26 +1,34 @@
-## API-MACHINE LEARNING-PlanTani
+## API MACHINE LEARNING-PlanTani
 
-## How to install this API 
-1. Clone The repo API 
-2. install all requirment needed
+## Cara menginstal API ini
+1. Clone repositori API ini
+2. Instal semua requirment yang diperlukan (didalam requirements.txt)
 ```
 pip install -r requirments.txt
 ```
-3. running the application API 
+3. Menjalankan API ini
 ```
-// in mode debug or developmnt 
+// dalam mode debug atau developmnt 
 python3 app.py
 
-// in mode production 
+// dalam mode produksi 
 gunicorn server:app
 ```
-
-## How to consume this api 
-simple just hit the routes API,
-- Example using curl
+## Cara menggunakan/consume API ini 
+Cukup akses rute API yang tersedia,
+- Menggunakan curl
 ```
-
-// POST image to predict for get item 
-curl -X POST -F "file=@1.jpg" "link.api.com/predict"
+// POST gambar untuk prediksi item
+curl -X POST -F "file="@sesuaikan dengan file yang tersedia di lokal" "link.api.com/predict"
+```
+- Menggunakan folder test/ yang sudah tersedia
+```
+ // POST gambar untuk prediksi item
+ ```
+ 1. masukkan setiap gambar tanaman yang ingin di predik ke folder test/ tersebut
+ 2. Ubah link curl dibawah sesuai kebutuhan
+ // Contoh:
+ url="link.api.com//"
+curl -X POST -F "file="@sesuaikan dengan file yang tersedia di lokal" $url"/predict"
 
 
