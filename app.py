@@ -1,5 +1,4 @@
 from flask import Flask, jsonify, request
-from src.database_app import *
 import os
 from model import result_predict
 

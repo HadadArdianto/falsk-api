@@ -53,5 +53,5 @@ def result_predict(image_path):
 
     return {"tanaman": tanaman, "penyakit": penyakit}
 
-a = result_predict("1.jpg")
-print(a)
+# a = result_predict("1.jpg")
+# print(a)
