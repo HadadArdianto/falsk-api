@@ -3,6 +3,7 @@
 1. Gunakan python versi 3.9 (Rekomendasi)
 2. Clone repositori API ini
 3. Instal semua requirment yang diperlukan (didalam requirements.txt)
+4. Buat folder baru dengan nama "uploads"
 ```
 pip install -r requirments.txt
 ```
